@@ -1,0 +1,29 @@
+.footer {
+   position: absolute;
+   top: 645px;
+   width: 100%;
+   height: 55px;
+   background-color: #0067A3;
+}
+
+.areaInfo {
+   display: flex;
+   justify-content: space-between;
+   margin: 15px 22px 0px 22px;
+   font-size: 18px;
+   font-weight: 400;
+   color: white;
+}
+
+.tasksCount {
+   display: flex;
+   justify-content: space-between;
+   width: 300px;
+}
+
+@media (min-width: 359px) and (max-width:835px) {
+                                      /* 1235px */
+   .footer {
+      display: none;
+   }
+}

@@ -1,0 +1,129 @@
+.header {
+   max-width: 100%;
+   height: 55px;
+   background-color: #0067A3;
+}
+
+.position_logo-user {
+   margin: 0px 22px 0px 22px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.size-logo {
+   margin: 8px 0px 0px 0px;
+   font-weight: 400;
+   font-size: 28px;
+   color: #FFFFFF
+}
+
+.user-icon {
+   cursor: pointer;
+}
+
+.menu {
+   position: absolute;
+   top: 56px;
+   right: 15px;
+   width: 134px;
+   height: 50px;
+   background-color: white;
+   border-radius: 5px;
+   padding: 5px;
+   z-index: 1;
+}
+
+.item_1:hover {
+   text-decoration: underline;
+}
+
+.item_2:hover {
+   text-decoration: underline;
+}
+
+.svg-user {
+   margin-top: 5px;
+   background-color: white;
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+}
+
+.svg_arrow-up {
+   margin: 0px 0px 15px 0px;
+   width: 12px;
+   height: 7.42px;
+}
+
+.svg_arrow-down {
+   margin: 0px 0px 15px 0px;
+   width: 12px;
+   height: 7.42px;
+}
+
+.button-arrow {
+   margin: 0px 0px 15px 5px;
+   width: 12px;
+   height: 7.42px;
+   border: none;
+   background-color: #0067A3;
+   cursor: pointer;
+}
+
+.svg-user {
+   margin-top: 5px;
+   background-color: white;
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+}
+
+.svg_arrow-up {
+   margin: 0px 0px 15px 0px;
+   width: 12px;
+   height: 7.42px;
+}
+
+.svg_arrow-down {
+   margin: 0px 0px 15px 0px;
+   width: 12px;
+   height: 7.42px;
+}
+
+.button-arrow {
+   margin: 0px 0px 15px 5px;
+   width: 12px;
+   height: 7.42px;
+   border: none;
+   background-color: #0067A3;
+   cursor: pointer;
+}
+
+@media (min-width: 359px) and (max-width: 835px) {
+                                       /* 1235px */
+   .header {
+      background-color: #0079BF;
+   }
+
+   .size-logo {
+      display: none;
+   }
+
+   .position_logo-user {
+      justify-content: end;
+   }
+
+   .menu {
+      position: relative;
+      top: -15px;
+      right: 90px;
+   }
+
+   .wrapper-menu {
+      width: 0px;
+   }
+
+   .button-arrow {
+      background-color: #0079BF;
+   }
+}
